@@ -1,0 +1,39 @@
+{
+  "name": "@naturalcycles/lodash-lib",
+  "scripts": {
+    "build-prod": "./build-lodash.sh"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@naturalcycles/dev-lib": "^7.13.0",
+    "@naturalcycles/semantic-release": "^1.0.0",
+    "@types/node": "^12.6.2",
+    "jest": "^24.8.0",
+    "lodash-cli": "^4.17.5"
+  },
+  "files": [
+    "dist",
+    "src",
+    "!src/.gitignore",
+    "!src/test",
+    "!src/**/*.test.ts",
+    "!src/**/__snapshots__",
+    "!src/**/__exclude"
+  ],
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NaturalCycles/lodash-lib"
+  },
+  "engines": {
+    "node": ">=10.13"
+  },
+  "version": "0.0.0",
+  "description": "Cherry-picked Lodash functions and their typings.",
+  "author": "Natural Cycles Team",
+  "license": "MIT"
+}
