@@ -32,7 +32,7 @@
   "engines": {
     "node": ">=10.13"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cherry-picked Lodash functions and their typings.",
   "author": "Natural Cycles Team",
   "license": "MIT"
